@@ -4,7 +4,7 @@ const navigatePlugin = require("mineflayer-navigate")(mineflayer);
 const bot = mineflayer.createBot({
     host: process.env.server,
     port: process.env.port,
-    username: process.env.username, //jkramer3@outlook.de
+    username: process.env.username, //process.env.email
     password: process.env.password,
     version: process.env.version,
     auth: 'microsoft'
